@@ -4,4 +4,4 @@
   tasks:
     - name: "First message"
       debug:
-        msg: "Hello..! Welcome"
+        msg: "Hello..! Welcome..! {{ inventory_hostname }}"
