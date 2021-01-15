@@ -5,3 +5,7 @@
     - name: "First message"
       debug:
         msg: "Hello..! Welcome..! {{ inventory_hostname }}"
+    - name: "Install vim"
+      yum:
+        name: "vim"
+        status: installed
